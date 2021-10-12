@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class parsingDataFile
+{
+ - static ArrayList<String> info
+ - static ArrayList<String> firstNames
+ - static ArrayList<String> lastNames
+ - static ArrayList<Integer> salary
+ +main()
+ +setInfo()
+ +setData()
+ +print()
+}
+@enduml

@@ -1,0 +1,26 @@
+-Use global variables to store the name, price, quantity of the product
+
+In the main method
+-Instantiate an object to scan in the input
+-Scan and store the name
+-Call isProduct method with Product name as its argument
+-Run a loop until the product name is found (isProduct must return true to end the loop)
+--In the loop
+--If the product is not found print sorry and prompt for product name again
+--End loop
+-At this point, the product name is found
+-Print the name, price, and quantity
+
+In the isProduct method
+-Read the file using File Reader
+-Access "products" using Json Object
+-Store all the Json String in Json array
+-Use an iterator to iterate through the Json Array
+--Run a for loop
+--Get individual Json string from the Json Array (as Json object)
+--Get the name, price, and quantity
+--Set global variable to local variables
+--Remove the quotation marks
+--If name matches the parameter name then return true and break
+--else continue checking other names
+--If none of the names match, return false

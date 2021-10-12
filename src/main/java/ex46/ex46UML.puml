@@ -1,0 +1,17 @@
+@startuml
+class wordFrequencyFinder.java
+{
+    +static ArrayList<String> frequentWords
+    +static ArrayList<String> words
+    +static ArrayList<Integer> frequency
+    +static ArrayList<String> stringFrequency
+    -main()
+    -findFrequentWords()
+    -findFrequency()
+    -sortF()
+    -findLongestWord()
+    -getIndex()
+    -print(int index)
+
+}
+@enduml

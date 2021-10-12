@@ -1,0 +1,9 @@
+Use Arralist to story words, frequent words, and frequency of each frequent word
+-Read all the words and story in an array list
+-Using a loop, find the most common words and store them in a separate array List
+-Find frequency of each word using the previous two array lists
+--Increase count for every familiar words and store the count in an integer array list
+-Create a string copy of the frequency array list
+--Sort the array list in descending order
+--Get the actual index of the word (that matches the frequency) using the sorted array list and string-copy of the array list
+--Print the values based on the index

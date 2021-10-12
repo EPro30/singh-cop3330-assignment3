@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class productSearch
+{
+    -static String name
+    -static double price
+    -static int quantity
+    +main()
+    +isProduct(String inputName)
+}
+@enduml

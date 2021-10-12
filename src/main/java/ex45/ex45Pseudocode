@@ -1,0 +1,7 @@
+-Take file name as input
+-pass the file name, old, and new string to the modify file method
+-Read the file
+-Add all the text to a String array list
+-replace all the old string with new string
+-add the old text and replaced string to a new string
+-Write the new string to an output file

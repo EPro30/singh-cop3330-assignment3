@@ -1,0 +1,13 @@
+Ask for the name of the site
+Ask for the name of the author
+Set initial path and create initial folder
+Create a new string to store initial path + html extension file
+Create that file
+Add input to that file
+Ask for JavaScript file
+If yes, then create a new string to store initial path + html extension file
+Create that file
+Ask for CSS file
+If yes, then create a new string to store initial path + html extension file
+Create that file
+As the files are created print their name as output

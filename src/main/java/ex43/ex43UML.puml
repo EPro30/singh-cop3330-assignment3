@@ -1,0 +1,23 @@
+@startuml
+class websiteGenerator
+{
+    +static Scanner sc
+    -main()
+    -setName()
+    -setAuthor()
+    -setInitialPath()
+
+    -website(String initialPath, String name)
+    -websiteHTML(String initialPath)
+    -websiteJS(char input, String initialPath)
+    -websiteCSS(char input, String initialPath)
+
+    -createFolder(String path)
+    -createFile(String path)
+    -createHTML(String name, String author, String path)
+
+    -htmlInput(String name, String author, String path)
+
+    -print(String msg)
+}
+@enduml
